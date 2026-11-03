@@ -17,7 +17,7 @@ void login(String email, password)async{
 
    );
    if(response.statusCode == 200){
-      print('Account created successfully');
+      print('Login successfully');
    }else{
      print('Failed');
    }
